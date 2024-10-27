@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="options.js"></script>
+    <script src="script.js"></script>
+    <script src="buttonsScript.js"></script>
+
+</head>
+
+<body>
+    <div id="mainCon" class="container">
+        <div class="row main d-flex logoMain">
+            <div id="logo" class="col-md-2 col-12 text-center">
+                <img class="logo" src="favicon.png" alt="Etai Hatuel Logo">
+            </div>
+            <div id="title" class="col-md-10 col-12 col-sm-12 titleRow">
+                <h3 class="title">פירוט חומרים</h3>
+
+                <p class="subTitle">
+                    <strong><span class="client"></span> <br></strong>
+                </p>
+
+            </div>
+        </div>
+    </div>
+    <div id="details" class="container">
+        <div class="row">
+            <div class="col-md-12 col-12 col-sm-12">
+                <hr class="box">
+                <h3 id="head1">חומרים עבור חדר - בנייה קלה</h3>
+                <ul><strong>מידות:</strong>
+                    <li>אורך: 4 מטר</li>
+                    <li>רוחב: 2.85 מטר</li>
+                    <li>גובה: 2.60 מטר</li>
+                    <li>גובה מקסימלי: 3 מטר</li>
+                    <li>שטח ריבועי: 11.3 מטר</li>
+                </ul>
+                <hr>
+                <div id="info">
+                    <ul><strong>קונסטרוקציה:</strong></ul>
+                    <table>
+                        <thead>
+                            <th class="type">סוג</th>
+                            <th>מידות</th>
+                            <th class="amount">כמות</th>
+
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>תעלה מגולוונת</td>
+                                <td>3 מטר</td>
+                                <td>27</td>
+                            </tr>
+                            <tr>
+                                <td>פאנל קיר 50 מ"מ</td>
+                                <td>100X300</td>
+                                <td>14</td>
+                            </tr>
+                            <tr>
+                                <td>פאנל גג</td>
+                                <td>100X300</td>
+                                <td>8</td>
+                            </tr>
+                            <tr>
+                                <td>פח לבן L</td>
+                                <td>3 מטר</td>
+                                <td>9</td>
+                            </tr>
+                            <tr>
+                                <td>תעלת פח לבן</td>
+                                <td>3 מטר</td>
+                                <td>2</td>
+                            </tr>
+                            <tr>
+                                <td>ברגי איסכורית קודח</td>
+                                <td>8 ס"מ</td>
+                                <td>70</td>
+                            </tr>
+                            <tr>
+                                <td>ברגי פח קודח לבן</td>
+                                <td>4.2X13</td>
+                                <td>200</td>
+                            </tr>
+                            <tr>
+                                <td>סרט מולטיסיל בוטילי</td>
+                                <td>5 ס"מ</td>
+                                <td>20 מטר</td>
+                            </tr>
+                            <tr>
+                                <td>ספוג פלציב</td>
+                                <td>50 מ"מ</td>
+                                <td>14 מטר</td>
+                            </tr>
+                            <tr>
+                                <td>מסלול אלומיניום</td>
+                                <td>30X300</td>
+                                <td>15</td>
+                            </tr>
+                            <tr>
+                                <td>ניצבים אלומיניום</td>
+                                <td>30X300</td>
+                                <td>36</td>
+                            </tr>
+                            <tr>
+                                <td>לוח גבס ירוק</td>
+                                <td>120X300</td>
+                                <td>16</td>
+                            </tr>
+                            <tr>
+                                <td>סרט פיברגלס לגבס</td>
+                                <td>52 מ"מ</td>
+                                <td>גליל 1</td>
+                            </tr>
+                            <tr>
+                                <td>שפכטל אמריקאי</td>
+                                <td>18 ליטר</td>
+                                <td>1</td>
+                            </tr>
+                            <tr>
+                                <td>סופרקריל לבן מט</td>
+                                <td>18 ליטר</td>
+                                <td>1</td>
+                            </tr>
+                            <tr>
+                                <td>חלון אלומיניום</td>
+                                <td>100X100</td>
+                                <td>1</td>
+                            </tr>
+                            <tr>
+                                <td>דלת מבודדת</td>
+                                <td>80X200</td>
+                                <td>1</td>
+                            </tr>
+                            <tr>
+                                <td>מסטיק אקרילי</td>
+                                <td>280 מ"ל</td>
+                                <td>4</td>
+                            </tr>
+                            <tr>
+                                <td>סיליקון לבן</td>
+                                <td>280 מ"ל</td>
+                                <td>2</td>
+                            </tr>
+                            <tr>
+                                <td>צמר סלעים ציפוי אלומיניום</td>
+                                <td></td>
+                                <td>גליל 1</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div id="printDiv">
+                    <button id="print">הורד PDF</button>
+                </div>
+                <hr class="box">
+                <div id="buttons" class="container text-center mt-4 col-sm-12 col-md-12">
+
+                    <img class="btn1" id="callMe" src="callme.png" />
+                    <img class="btn1" id="whatsApp" src="whatsapp.png" />
+                    <a href="mailto:senioretai@gmail.com">
+                        <img class="btn1" id="gmail" src="gmail.png" alt="Send Email" />
+                    </a>
+
+
+                </div>
+                <p class="cRights">© 2024 Etai Hatuel. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
